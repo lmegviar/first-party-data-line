@@ -106,7 +106,11 @@ const messages = {
 		msg: [
 			"You don't want The Artist to know your location.",
 			"That's understandable in today's world.",
-		]
+		],
+		primary: {
+			msg: "Continue",
+			action: () => displayMessage("CONTACT_ARTIST")
+		}
 	},
 	PLEASE_STAY: {
 		msg: [
