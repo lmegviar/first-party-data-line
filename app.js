@@ -237,7 +237,7 @@ const displayArtistResponse = (response, question) => {
 const displayBrowserMessage = () => {
 	messages.BROWSER.msg.push(`I notice you're using a ${userData.appCodeName} browser on ${userData.oscpu}.`);
 	if (userData.mobile) {
-		messages.BROWSER.msg.push("You're viewing this art from a mobile device as well. How wonderful that you can connet with The Artist from anywhere.");
+		messages.BROWSER.msg.push("You're viewing this art from a mobile device as well. How wonderful that you can connect with The Artist from anywhere.");
 	} else {
 		messages.BROWSER.msg.push("How wonderful, The Artist uses similar technology.");
 	}
