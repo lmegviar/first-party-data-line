@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Fjalla+One&display=swap');
 
  /* Dialog background */
+
 .dialog {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -16,6 +17,7 @@
 }
 
 /* Dialog content */
+
 .dialog-content {
   background-color: #fefefe;
   margin: 15% auto;
@@ -26,21 +28,27 @@
 }
 
 /* Action Buttons */
+
 button {
   padding: .6em;
   border-radius: 10px;
   min-width: 100px;
+  cursor:  pointer;
 }
+
 button.submit {
   margin-left:  1em;
 }
+
 button:not(.primary) {
   margin-right:  1em;
 }
+
 button.primary {
   color: #fff;
   background-color: #4a4a4a;
 }
+
 /* Dismiss button */
 .dismiss {
   color: #aaa;
@@ -56,17 +64,18 @@ button.primary {
   cursor: pointer;
 } 
 
-/* Date input */
-
 /* Main content */
+
 .main-content {
   font-family: 'Arimo', sans-serif;
   display: flex;
   padding: 40px;
 }
+
 #current-message {
   padding-top:  20px;
 }
+
 .dialog-content {
   width: calc(100% - 300px);
   width: 400px;
@@ -74,29 +83,37 @@ button.primary {
   margin-top: 80px;
   min-height: 200px;
 }
+
 .page-content {
   min-width: 400px;
 }
+
 .copyright {
   font-size:  12px;
   color:  #aaa;
 }
+
 #inputs {
   margin:  1.5em;
 }
+
 .sidebar {
   min-width: 180px;
 }
+
 .page-content {
   border-left: solid #aaa 2px;
   padding: 0 20px;
 }
+
 header, nav li {
   font-family: 'Fjalla One', sans-serif;
 }
+
 header {
   font-size:  42px;
 }
+
 nav li {
   list-style: none;
   font-size: 16px;
