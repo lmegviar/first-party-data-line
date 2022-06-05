@@ -296,10 +296,10 @@ const makeTextInput = (input, action) => {
 const sendSMS = (msg) => {
 	console.log('SEND SMS', msg)
 	Email.send({
-	    SecureToken : "54c74836-e81e-4451-954a-2a66071cd588",
+	    SecureToken : "04387e33-dbbd-45a1-8122-993475c647a4 ",
 	    To : 'firstPartyDataLine@gmail.com',
-	    From : "lmegviar@gmail.com",
-	    Subject : "First Party [Data] Line",
+	    From : "firstPartyDataLine@gmail.com",
+	    Subject : "Questions from First Party [Data] Line",
 	    Body : msg
 	}).then(
 	  message => alert(message)
