@@ -1,2 +1,9 @@
-# first-party-data-line
-First Party [Data] Line
+# First Party [Data] Line
+
+Experience the work [here](https://lmegviar.github.io/first-party-data-line/).
+
+Created as follow up to [Cybernetic Systems in New Media Advertising](https://docs.google.com/document/d/1bDfFngSqwkvlfKMBldT4rw44xBoWr_dNE-ZfuAW8bIQ/edit?usp=sharing)
+
+### Artist Statement
+
+First Party [Data] Line explores the changing landscape of online content, advertising, and data collection. “Third-party” tracking of users’ behavior across the web is declining in the face of increased privacy concerns. Meanwhile, the demand for “first-party” data, information collected directly from the website or application a user is currently engaging with, flourishes. Online creators face increasing pressure to elicit and capture first-party data while continuing to signal trustworthiness and authenticity to their audience. Additionally, marketers seek opportunities to collaborate with creators, resulting in sponsored content that blurs the line between art and advertising. The website First Party [Data] Line takes these trends to their extremes. The user first sees a pop-up dialog overlaid on what appears to be the artist’s portfolio website. The title of the work is visible, but the modal obscures the space below. In practice, the modal is the art. By presenting the work in the guise of a pop-up ad, this work subverts the viewer’s expectations. The site gathers first-party data from the user’s browser as they engage with the work. A series of prompts encouraging the user to trust and share information with “The Artist”. Attempts to leave the dialog are met with pleas to give “The Artist” one more chance. Ultimately, the user earns the opportunity to reach out to “The Artist” directly. In a final version of this work, the user’s input would reach the work’s creator via an SMS text message. The page would then poll for and display a reply. This on-demand direct engagement with the artist pokes fun at the growing emotional burdens placed on internet content creators. In our current system, they must balance their art and authenticity with the need to earn a living. First Party [Data] Line asks the viewer to question this system and how it shapes online art.
