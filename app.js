@@ -105,7 +105,7 @@ const messages = {
 	IP_LOCATION: {
 		msg: [
 			"You don't want The Artist to know your location.",
-			"In today's world, that's understandable.",
+			"That's understandable in today's world.",
 		]
 	},
 	PLEASE_STAY: {
@@ -121,7 +121,7 @@ const messages = {
 	ART_SOON: {
 		msg: [
 			"We'll get to The Art soon.",
-			" But first, let The Artist get to know you."
+			"But first, let The Artist get to know you."
 		],
 		primary: {
 			msg: "Continue",
