@@ -26,7 +26,20 @@
 }
 
 /* Action Buttons */
+button {
+  padding: .6em;
+  border-radius: 10px;
+  min-width: 100px;
+}
+button.submit {
+  margin-left:  1em;
+}
+button:not(.primary) {
+  margin-right:  1em;
+}
 button.primary {
+  color: #fff;
+  background-color: #4a4a4a;
 }
 /* Dismiss button */
 .dismiss {
@@ -51,9 +64,22 @@ button.primary {
   display: flex;
   padding: 40px;
 }
+#current-message {
+  padding-top:  20px;
+}
+.dialog-content {
+  width: calc(100% - 300px);
+  max-width: 400px;
+  margin-left: 250px;
+  margin-top: 80px;
+  min-height: 200px;
+}
 .copyright {
   font-size:  12px;
   color:  #aaa;
+}
+#inputs {
+  margin:  1.5em;
 }
 .sidebar {
   min-width: 180px;
@@ -73,3 +99,6 @@ nav li {
   font-size: 16px;
   line-height: 2;
 }
+
+/*TO DO handle small screen sizes
+*/
