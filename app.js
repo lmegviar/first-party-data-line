@@ -123,7 +123,8 @@ const messages = {
 	},
 	CONTACT_ARTIST: {
 		msg: [
-			"You've shared so much. Now it's time for The Artist to give back.",
+			"You've shared so much.",
+			"Now it's time for The Artist to give back.",
 			"Ask The Artist anything you like:"
 		],
 		textInput: {
@@ -178,7 +179,7 @@ const addInputs = (message) => {
 				inputsEl.append(makeButton(message.primary))
 				break;
 			case "secondary":
-				inputsEl.append(makeButton(message.secondary, false))
+				inputsEl.prepend(makeButton(message.secondary, false))
 				break;
 			case "textInput":
 				inputsEl.append(makeTextInput(message.textInput))
@@ -247,7 +248,10 @@ const displayMessage = (msgId) => {
 		currentMessageEl.append(text);
 	});
 	addInputs(message, currentMessageEl);
-	userData.messagesViewed.push(msgId);
+	let viewed = userData.messagesViewed;
+	if (!viewed.length || viewed[viewed.length - 1] !== msgId) {
+		viewed.push(msgId);
+	}
 };
 
 const getLastMessage = () => {
