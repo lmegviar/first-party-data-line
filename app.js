@@ -265,7 +265,7 @@ const displayLocationMessage = () => {
 	}
 	const error = () => {
 		userData.blockedLocation = true;
-		messages.IP_LOCATION.msg.push(`The Artist respects your decision and won't user your Internet Provider Address ${userData.ipAddress ? "(" + userData.ipAddress + ") " : ""}to find your location without permission.`);
+		messages.IP_LOCATION.msg.push(`The Artist respects your decision and won't use your Internet Provider Address ${userData.ipAddress ? "(" + userData.ipAddress + ") " : ""}to find your location without permission.`);
 		displayMessage("IP_LOCATION");
 	}
 	getUserLocation(success, error);
