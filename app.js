@@ -62,7 +62,7 @@ const messages = {
 			msg: "Let me try again.",
 			action: () => {
 				userData.honest = false;
-				displayMessage("VERIFY_VPN");
+				displayMessage("VERIFY_AGE");
 			}
 		}
 	},
@@ -307,7 +307,7 @@ const makeButton = (button, primary=true) => {
 };
 
 // const makeDateInput = (action) => {
-// 	// to do
+// 	// To Do - have user confirm birthdate and save
 // }
 
 const makeTextInput = (input, action) => {
