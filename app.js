@@ -3,7 +3,7 @@
 const messages = {
 	VERIFY_AGE: {
 		msg: [
-			"This Artwork is intended for audience 13 and older.", 
+			"This Artwork is intended for audiences 13 and older.", 
 			"Please confirm your birthdate to continue."
 		],
 		primary: {
