@@ -288,8 +288,11 @@ const displayMessage = (msgId) => {
 };
 
 const getLastMessage = () => {
-	const viewed = userData.messagesViewed
-	return viewed[viewed.length - 2] || viewed[viewed.length - 1];
+	const viewed = userData.messagesViewed;
+	let last = viewed[viewed.length - 2] || viewed[viewed.length - 1] || messages["VERIFY_AGE"]; // default to first screen
+	// Don't return "PLEASE_STAY" or "ART_SOON" to avoid an infinite loop
+	return ["PLEASE_STAY", "ART_SOON"].includes(last.id) ? messages["VERIFY_AGE"] : last;
+
 };
 
 const getUserLocation = (success, error) => {
