@@ -289,9 +289,9 @@ const displayMessage = (msgId) => {
 
 const getLastMessage = () => {
 	const viewed = userData.messagesViewed;
-	let last = viewed[viewed.length - 2] || viewed[viewed.length - 1] || messages["VERIFY_AGE"]; // default to first screen
+	let last = viewed[viewed.length - 2] || viewed[viewed.length - 1] || "VERIFY_AGE"; // default to first screen
 	// Don't return "PLEASE_STAY" or "ART_SOON" to avoid an infinite loop
-	return ["PLEASE_STAY", "ART_SOON"].includes(last.id) ? messages["VERIFY_AGE"] : last;
+	return ["PLEASE_STAY", "ART_SOON"].includes(last) ? "VERIFY_AGE" : last;
 
 };
 
